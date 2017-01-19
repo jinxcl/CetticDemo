@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetticDemo.CSharp", "CetticDemo.CSharp.csproj", "{8928BEC2-2A97-26D1-D28C-CA34B3B09887}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetticDemo.CSharp.Editor", "CetticDemo.CSharp.Editor.csproj", "{EEE1DE41-4A4A-FBC2-44D3-E0E3D2C80850}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8928BEC2-2A97-26D1-D28C-CA34B3B09887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8928BEC2-2A97-26D1-D28C-CA34B3B09887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8928BEC2-2A97-26D1-D28C-CA34B3B09887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8928BEC2-2A97-26D1-D28C-CA34B3B09887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE1DE41-4A4A-FBC2-44D3-E0E3D2C80850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE1DE41-4A4A-FBC2-44D3-E0E3D2C80850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE1DE41-4A4A-FBC2-44D3-E0E3D2C80850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE1DE41-4A4A-FBC2-44D3-E0E3D2C80850}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
