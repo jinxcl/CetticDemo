@@ -6,17 +6,22 @@ using UnityStandardAssets.Characters.ThirdPerson;
 public class ProceduralGround : MonoBehaviour
 {
 
+    #region pubic properties
     public Transform prefabGround;
     public int numberOfObject;
     public Vector3 startPosition;
     public float recycleOffset;
     public GameObject player;
+    #endregion
 
+    #region Private properties
     private Vector3 nextPosition;
     private Queue<Transform> objectQueue;
     private ThirdPersonCharacter characterScript;
-    
+    #endregion
 
+
+    #region Unity Monobehaviour
 
     void Start()
     {
@@ -39,7 +44,6 @@ public class ProceduralGround : MonoBehaviour
     void Update()
     {
 
-        //Debug.Log(objectQueue.Peek().localPosition.z + recycleOffset);
         if(objectQueue.Peek().localPosition.z + recycleOffset < characterScript.m_distanceTraveled)
         {
             Transform g = objectQueue.Dequeue();
@@ -48,4 +52,6 @@ public class ProceduralGround : MonoBehaviour
             objectQueue.Enqueue(g);
         }
     }
+
+    #endregion
 }
