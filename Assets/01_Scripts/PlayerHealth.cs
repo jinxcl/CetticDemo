@@ -29,6 +29,7 @@ public class PlayerHealth : MonoBehaviour
             // .. then reload the currently loaded level.
             //Application.LoadLevel(Application.loadedLevel);
             livesTextValue.text = "GAME OVER";
+            Time.timeScale = 0;
 
         }
 
